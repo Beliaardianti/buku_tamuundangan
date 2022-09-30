@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buku Tamu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav_wrapper">
+        <h1>Angga & Suzy</h1>
+        <h3>Buku Tamu</h3>
+      </div>
+    </nav>
+
+    <main>
+      <div class="hero">
+        <h3>Pernikahan</h3>
+        <h1>Angga & Suzy</h1>
+        <h3>Jakarta, 31 Agustus 2022</h3>
+        <button onclick="isiBukuTamu()">Isi Buku Tamu</button>
+      </div>
+
+      <section>
+        <h1>Daftar Tamu</h1>
+        <table class="daftar_tamu_table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama Lengkap</th>
+              <th>Alamat</th>
+              <th style="text-align: center">Keterangan</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <!-- DIRENDER DARI JS -->
+            <!-- <tr>
+              <td>1</td>
+              <td>Belia</td>
+              <td>Jakarta</td>
+              <td style="text-align: center">PT jvalley</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+
+    <footer>
+      <p>Design by :</p>
+      <h3>Belia Ardianti</h3>
+    </footer>
+    
+  </body>
+</html>
